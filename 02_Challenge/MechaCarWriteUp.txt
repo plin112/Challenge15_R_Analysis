@@ -1,0 +1,20 @@
+R - Statistics Analysis
+
+1. MPG Regression
+-- Using multiple linear regression linear model for mpg of MechaCar prototypes was setup
+a. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+Base on the variables/coefficients provided, vehicle length and ground clearance have a significant impact on miles per gallon, which both of the variable had p-values below the significance level of 0.05%.
+b. Is the slope of the linear model considered to be zero? Why or why not?
+The slope of the linear model is not zero. Because the multiple R-squred is 0.7149 and p-value is below the significant level of 0.05%. 
+c. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+Yes, this linear model will predict mpg of MechaCar prototypes effectively. Because the multiple r-square value is 0.7149 and the p-value is below the significant level of 0.05%.
+
+2. Suspension Coil Summary
+  When only PSI was taking into account, the PSI variance is 76.23 and it meets the design specifications for the MechaCar suspension coils. However, When manufacturing lot was also taking into account, lot 1 and 2 meet the design specification for there PSI variance is 1.15 and 10.1 respectively. Lot 3 is exceeding the design specifications, for it's PSI variance is 220. 
+
+3. Suspension Coil T-Test
+  Based on the Suspension Coil T-Test, the p-value of the suspension coil’s PSI is 0.8101, which is above the significance level of 0.05%. Therefore, it is not statistically different from the mean populartion PSI results. When T-Test was done for each individual manufacturing lots, all of them have p-value above significant level of 0.05%. In conclusion, there's no one that is statistically different from the mean of PSI results. 
+  
+4. Design study
+  Cylinder (cyl) is the power unit of a car, and horsepower(hp) is the force needed to move 550 pounds one foot in a second. When comparing the relationship between cylinder and horsepower, I created a linear regression to investigate if there's a correlation these two variables. 
+  The linear regression model is showing that the multiple r-square value of 0.0.693, and the p-value is below significance level of 0.05%. Therefore, there's coorelation between cyl and hp.
